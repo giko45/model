@@ -15,24 +15,24 @@
     "license": "MIT",
     "require": {
         "php": ">=5.5.9",
-        "nesbot/Carbon": "~1.9",
-        "illuminate/contracts": "~5.1",
-        "illuminate/database": "~5.1 || >= 5.1.27",
-        "illuminate/encryption": "~5.1",
-        "illuminate/events": "~5.1",
-        "illuminate/hashing": "~5.1",
-        "illuminate/support": "~5.1",
-        "illuminate/validation": "~5.1",
-        "paragonie/random_compat": "^1|^2",
+        "nesbot/Carbon": "~2.0",
+        "illuminate/contracts": "~6.0",
+        "illuminate/database": "~6.0",
+        "illuminate/encryption": "~6.0",
+        "illuminate/events": "~6.0",
+        "illuminate/hashing": "~6.0",
+        "illuminate/support": "~6.0",
+        "illuminate/validation": "~6.0",
+        "paragonie/random_compat": "^1|^2| 9.99.99",
         "symfony/polyfill-php56": "~1.1",
-        "watson/validating": "~1.0.0 || ~2.0.0"
+        "watson/validating": "~4.0"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "2.0.0-alpha",
-        "fzaninotto/faker": "~1.4",
-        "mockery/mockery": "0.9.*",
-        "phpunit/phpunit": "~4.0",
-        "phpspec/phpspec": "~2.1"
+        "friendsofphp/php-cs-fixer": "^2.10",
+        "fzaninotto/faker": "^1.0",
+        "mockery/mockery": "^1.0",
+        "phpunit/phpunit": "^5.0",
+        "phpspec/phpspec": "^3.4"
     },
     "autoload": {
         "psr-4": {
